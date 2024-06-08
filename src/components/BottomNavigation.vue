@@ -1,12 +1,12 @@
 <template>
     <v-bottom-navigation
         v-model="value"
-        bg-color="blue-darken-3"
+        bg-color="indigo"
         mode="shift"
         grow="true"
         :mandatory="true"
     >
-        <v-btn 
+        <v-btn
             value="index"
             to="/"
         >
@@ -14,7 +14,15 @@
             <span>Accueil</span>
         </v-btn>
 
-        <v-btn 
+        <v-btn
+            value="videos"
+            to="/videos"
+        >
+            <v-icon>mdi-folder</v-icon>
+            <span>Vidéos</span>
+        </v-btn>
+
+        <v-btn
             value="settings"
             to="/settings"
         >

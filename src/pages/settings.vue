@@ -1,7 +1,8 @@
 <template>
-    <div>
-        <h1>Settings</h1>
-    </div>
+    <v-container>
+        <h1>Paramètres</h1>
+        <p>Cette page est en cours de développement...</p>
+    </v-container>
 </template>
 
 <script setup>

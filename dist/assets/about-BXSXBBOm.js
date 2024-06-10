@@ -1,0 +1,1 @@
+import{V as t}from"./VContainer-DelsTqgR.js";import{o,n as s,w as a,s as e}from"./index-BScHaBDr.js";const n=e("h1",null,"A propos",-1),r=e("p",null,"Cette page est en cours de développement...",-1),d={__name:"about",setup(p){return(_,c)=>(o(),s(t,null,{default:a(()=>[n,r]),_:1}))}};export{d as default};
